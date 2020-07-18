@@ -22,5 +22,19 @@ npm install
 ```gitattributes
 node app.js --help
 ```
+*Output*
+```bash
+app.js [command]
+
+Commands:
+  app.js add     Add a new note
+  app.js remove  Remove a note
+  app.js list    listing all notes
+  app.js read    Read a particular note
+
+Options:
+  --help     Show help                                                 [boolean]
+  --version  Show version number                                       [boolean]
+```
 
 
