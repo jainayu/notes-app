@@ -7,3 +7,9 @@ This is my very first node.js application for writing notes trough terminal.
 ```bash
 git clone https://github.com/jainayu/notes-app
 ```
+
+**2. Install the application using**
+```bash
+npm install
+```
+
