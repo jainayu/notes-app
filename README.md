@@ -14,13 +14,12 @@ cd notes-app
 ```
 
 **3. Install the application using**
-```javascript
+```bash
 npm install
 ```
 
 **4. Use `--help` to explore more about how to add, remove, read or list all the notes:
-
-```javascript
+```bash
 node app.js --help
 ```
 
