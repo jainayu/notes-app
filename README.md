@@ -18,12 +18,12 @@ cd notes-app
 npm install
 ```
 
-**4. Use `--help` to explore more about how to add, remove, read or list all the notes:**
+**4. Use `--help` to explore about how to add, remove, read or list all the notes:**
 ```gitattributes
 node app.js --help
 ```
 *Output*
-```bash
+```
 app.js [command]
 
 Commands:
@@ -35,6 +35,24 @@ Commands:
 Options:
   --help     Show help                                                 [boolean]
   --version  Show version number                                       [boolean]
+```
+
+**4. Use `--help [command]` to explore more about individual command add, remove, read or list:**
+*Example: To find more about how to add a note you can simply write*
+```gitattributes
+node app.js --help add
+```
+*Output: It will let you know what parameters(`--title` and `--note`) are needed to add the note.*
+```
+app.js add
+
+Add a new note
+
+Options:
+  --help     Show help                                                 [boolean]
+  --version  Show version number                                       [boolean]
+  --title    Note Title                                      [string] [required]
+  --note     Note Body                                       [string] [required]
 ```
 
 
