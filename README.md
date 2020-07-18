@@ -21,7 +21,7 @@ npm install
 
 ## How to Use:
 
-**- Use `--help` to explore about how to add, remove, read or list all the notes:**
+  **- Use `--help` to explore about how to add, remove, read or list all the notes:**
 
 ```gitattributes
 node app.js --help
@@ -41,7 +41,7 @@ Options:
   --version  Show version number                                       [boolean]
 ```
 
-**- Use `--help [command]` to explore more about individual command add, remove, read or list:**
+  **- Use `--help [command]` to explore more about individual command add, remove, read or list:**
 
 *Example: To find more about how to add a note you can simply write*
 ```gitattributes
