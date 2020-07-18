@@ -14,7 +14,14 @@ cd notes-app
 ```
 
 **3. Install the application using**
-```gitattributes
+```javascript
 npm install
 ```
+
+**4. Use `--help` to explore more about how to add, remove, read or list all the notes:
+
+```javascript
+node app.js --help
+```
+
 
